@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css" integrity="sha512-EZLkOqwILORob+p0BXZc+Vm3RgJBOe1Iq/0fiI7r/wJgzOFZMlsqTa29UEl6v6U6gsV4uIpsNZoV32YZqrCRCQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script> 
+    <title>Livre</title>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Mon Livres</h1>
+        </header>
+<!-- The above form looks like this -->
+    <form>
+        <div class="row">
+                <div class="three columns">
+                <label for="name">Book title</label>
+                <input class="u-full-width" type="text" placeholder="Name" id="name" value="name">
+            </div>
+
+            <div class="three columns">
+                <label for="author">Author</label>
+                <input class="u-full-width" type="text" placeholder="Author" id="author" value="author">
+            </div>
+            <div class="three columns">
+                <label for="lang">Language</label>
+                <select class="u-full-width" name="lang" id="select">
+                    <option value="French">French</option>
+                    <option value="English">English</option>
+                </select>
+            </div>
+            <div class="three columns">
+                <span class="label-body"><label for="submit">Submit</label></span>
+                <input class="button-primary" id="submit" type="submit" class="u-full-width">
+            </div>
+        </div>
+    </form>  
+    
+    
+    <table class="u-full-width" id="table">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Author</th>
+                <th>Langauge</th>
+                <th>Status</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Mon Amie Adele</td>
+                <td>Sarah Pinsborough</td>
+                <td>French</td>
+                <td><button class="button-primary">READ</button></td>
+            </tr>
+        </tbody>
+        <tbody>
+            <tr>
+                <td>Mon Amie Adele</td>
+                <td>Sarah Pinsborough</td>
+                <td>French</td>
+                <td><button class="button-primary">READ</button></td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+
+  <!-- Always wrap checkbox and radio inputs in a label and use a <span class="label-body"> inside of it -->
+  
+  <!-- Note: The class .u-full-width is just a utility class shorthand for width: 100% -->
+    </div>
+
+</body>
+</html>
